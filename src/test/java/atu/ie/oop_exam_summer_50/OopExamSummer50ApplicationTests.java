@@ -18,8 +18,9 @@ class OopExamSummer50ApplicationTests {
 
     @Email
     public void studentEmail;{
-        String message;() Default {"input student email"};
-        Class<studentEmail> groups() Default{};
+        String message;
+        Default {"input student email"};
+        Class<OopExamSummer50Application.studentEmail> groups;() Default{};
 
 
 }
@@ -28,7 +29,7 @@ class OopExamSummer50ApplicationTests {
 class input{
         @Min(1) @Max(12)
     int durationHours;
-        return durattionHours
+        return durattionHours;
 
 
 }

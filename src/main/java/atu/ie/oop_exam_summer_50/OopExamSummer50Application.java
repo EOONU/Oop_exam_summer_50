@@ -33,10 +33,10 @@ public class OopExamSummer50Application<Input> {
     }
 @ComponentScan
 
-    public class studentemail{
-@PutMapping("validate/{email}")
+    public class studentEmail{
+@PutMapping("validate/{Email}")
 Input validate(
-        @PathVariable @Positive Long email,
+        @PathVariable @Positive Long Email,
         @RequestParam ("query") @NotEmpty String query,
         @Valid @RequestBody Input input){
     return input;
