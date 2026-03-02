@@ -15,9 +15,10 @@ class OopExamSummer50ApplicationTests {
     @Test
     void contextLoads() {
     }
-@Email
-void studentEmail{
-        String message() Default {"input student email"};
+
+    @Email
+    public void studentEmail;{
+        String message;() Default {"input student email"};
         Class<studentEmail> groups() Default{};
 
 

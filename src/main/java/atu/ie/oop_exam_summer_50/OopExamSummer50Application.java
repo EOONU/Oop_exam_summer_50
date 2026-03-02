@@ -45,28 +45,6 @@ Input validate(
 
 
     }
-    @Configuration
-    public class equipmentTag{
-//what equipment selection
-    }
 
-    @Configuration
-    public class reservationDate{
-// calender month and date to select
-    }
-
-@Service
-    public class startHour{
-//what hour to start input
-
-    }
-
-@Service
-    public class durattionHours{
-
-//input
-//@min(1) @max(12) Hours
-
-    }
 }
 
